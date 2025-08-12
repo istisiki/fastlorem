@@ -204,29 +204,26 @@
         class LoremGenerator {
             constructor() {
                 this.words = [
-                    'lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit',
-                    'sed', 'do', 'eiusmod', 'tempor', 'incididunt', 'ut', 'labore', 'et', 'dolore',
-                    'magna', 'aliqua', 'enim', 'ad', 'minim', 'veniam', 'quis', 'nostrud',
-                    'exercitation', 'ullamco', 'laboris', 'nisi', 'aliquip', 'ex', 'ea', 'commodo',
-                    'consequat', 'duis', 'aute', 'irure', 'in', 'reprehenderit', 'voluptate',
-                    'velit', 'esse', 'cillum', 'fugiat', 'nulla', 'pariatur', 'excepteur', 'sint',
-                    'occaecat', 'cupidatat', 'non', 'proident', 'sunt', 'culpa', 'qui', 'officia',
-                    'deserunt', 'mollit', 'anim', 'id', 'est', 'laborum', 'at', 'vero', 'eos',
-                    'accusamus', 'accusantium', 'doloremque', 'laudantium', 'totam', 'rem',
-                    'aperiam', 'eaque', 'ipsa', 'quae', 'ab', 'illo', 'inventore', 'veritatis',
-                    'architecto', 'beatae', 'vitae', 'dicta', 'sunt', 'explicabo', 'nemo',
-                    'ipsam', 'quia', 'voluptas', 'aspernatur', 'aut', 'odit', 'fugit', 'sed',
-                    'quia', 'consequuntur', 'magni', 'dolores', 'ratione', 'sequi', 'neque',
-                    'porro', 'quisquam', 'dolorem', 'adipisci', 'numquam', 'eius', 'modi',
-                    'tempora', 'incidunt', 'magnam', 'quaerat', 'voluptatem', 'fuga', 'harum',
-                    'quidem', 'rerum', 'facilis', 'expedita', 'distinctio', 'nam', 'libero',
-                    'tempore', 'cum', 'soluta', 'nobis', 'eligendi', 'optio', 'cumque', 'nihil',
-                    'impedit', 'quo', 'minus', 'maxime', 'placeat', 'facere', 'possimus',
-                    'omnis', 'assumenda', 'repellendus', 'temporibus', 'autem', 'quibusdam',
-                    'officiis', 'debitis', 'necessitatibus', 'saepe', 'eveniet', 'voluptates',
-                    'repudiandae', 'recusandae', 'itaque', 'earum', 'hic', 'tenetur', 'sapiente',
-                    'delectus', 'reiciendis', 'maiores', 'alias', 'perferendis', 'doloribus',
-                    'asperiores', 'repellat'
+                    'a', 'ab', 'accusamus', 'accusantium', 'ad', 'adipisci', 'adipiscing', 'aliqua', 'aliquam', 'aliquid',
+                    'amet', 'anim', 'aperiam', 'architecto', 'asperiores', 'aspernatur', 'assumenda', 'at', 'atque', 'aut',
+                    'aute', 'autem', 'beatae', 'blanditiis', 'cillum', 'commodi', 'commodo', 'consectetur', 'consequat',
+                    'consequatur', 'consequuntur', 'corporis', 'corrupti', 'culpa', 'cum', 'cumque', 'cupidatat', 'cupiditate',
+                    'debitis', 'delectus', 'deleniti', 'deserunt', 'dicta', 'dignissimos', 'distinctio', 'do', 'dolor',
+                    'dolore', 'dolorem', 'doloremque', 'dolores', 'doloribus', 'dolorum', 'ducimus', 'duis', 'ea', 'eaque',
+                    'earum', 'eius', 'eligendi', 'elit', 'enim', 'eos', 'error', 'esse', 'est', 'et', 'eu', 'eum', 'eveniet',
+                    'ex', 'excepteur', 'excepturi', 'exercitation', 'exercitationem', 'expedita', 'explicabo', 'facere',
+                    'facilis', 'fuga', 'fugiat', 'fugit', 'harum', 'hic', 'id', 'illo', 'illum', 'impedit', 'in', 'incidunt',
+                    'incididunt', 'inventore', 'ipsum', 'irure', 'iste', 'itaque', 'labore', 'laboriosam', 'laboris',
+                    'laborum', 'laudantium', 'libero', 'lorem', 'magna', 'magnam', 'magni', 'maiores', 'maxime', 'minima',
+                    'minim', 'minus', 'modi', 'molestiae', 'molestias', 'mollitia', 'mollit', 'nam', 'natus', 'necessitatibus',
+                    'nemo', 'neque', 'nesciunt', 'nihil', 'nisi', 'nobis', 'non', 'nostrud', 'nulla', 'numquam', 'occaecat',
+                    'odio', 'odit', 'officia', 'omnis', 'optio', 'pariatur', 'perferendis', 'perspiciatis', 'placeat',
+                    'porro', 'possimus', 'praesentium', 'proident', 'quae', 'quaerat', 'quam', 'quas', 'qui', 'quia',
+                    'quibusdam', 'quidem', 'quis', 'quisquam', 'quo', 'ratione', 'recusandae', 'reiciendis', 'rem',
+                    'repellat', 'repellendus', 'reprehenderit', 'repudiandae', 'rerum', 'saepe', 'sapiente', 'sed',
+                    'sequi', 'similique', 'sint', 'sit', 'soluta', 'sunt', 'suscipit', 'tempor', 'tempora', 'temporibus',
+                    'tempore', 'tenetur', 'totam', 'ullamco', 'ullam', 'unde', 'ut', 'vel', 'velit', 'veniam', 'vero',
+                    'vitae', 'voluptas', 'voluptate', 'voluptatem', 'voluptates', 'voluptatibus', 'voluptatum'
                 ];
                 
                 this.generateBtn = document.getElementById('generateBtn');
@@ -280,7 +277,20 @@
                 const paragraphCount = this.getRandomInt(3, 7);
                 let paragraphs = [];
                 
-                for (let i = 0; i < paragraphCount; i++) {
+                // Always start with the classic lorem ipsum opening for first paragraph
+                const classicOpening = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+                let firstParagraph = classicOpening;
+                
+                // Add more sentences to the first paragraph if needed
+                const additionalSentences = this.getRandomInt(2, 5);
+                for (let j = 0; j < additionalSentences; j++) {
+                    firstParagraph += ' ' + this.generateSentence();
+                }
+                
+                paragraphs.push(`<p>${firstParagraph}</p>`);
+                
+                // Generate remaining paragraphs normally
+                for (let i = 1; i < paragraphCount; i++) {
                     paragraphs.push(`<p>${this.generateParagraph()}</p>`);
                 }
                 

@@ -10,7 +10,7 @@
 ## 1. Context
 
 ### Product Definition
-FastLorem is a single-page web application that generates random lorem ipsum placeholder text for designers, developers, and content creators. The application provides instant, customizable dummy text with a one-click copy-to-clipboard functionality.
+FastLorem is a single-page web application that generates authentic lorem ipsum placeholder text derived from Cicero's classical Latin work "De Finibus Bonorum et Malorum" (45 BC). The application provides instant, traditional dummy text with a one-click copy-to-clipboard functionality, always beginning with the standard "Lorem ipsum dolor sit amet..." opening.
 
 ### Problem Statement
 Content creators, designers, and developers frequently need placeholder text while working on layouts, mockups, and prototypes. Current solutions often require:
@@ -110,15 +110,17 @@ FastLorem solves these pain points by providing:
 
 ### 5.1 Core Features
 
-#### Random Text Generation Engine
-**Description**: Intelligent lorem ipsum generator that creates varied, realistic text patterns.
+#### Authentic Lorem Ipsum Generation Engine
+**Description**: Generates traditional lorem ipsum text using authentic Latin words from Cicero's "De Finibus Bonorum et Malorum."
 
 **Technical Specifications**:
-- **Word Pool**: 150+ classical lorem ipsum words
+- **Word Pool**: 200+ authentic Latin words from classical literature
+- **Opening Text**: Always begins with standard "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 - **Paragraph Count**: Random 3-7 paragraphs per generation
 - **Sentence Count**: Random 3-8 sentences per paragraph
 - **Word Count**: Random 8-20 words per sentence
-- **Algorithm**: Weighted random selection preventing repetitive patterns
+- **Authenticity**: Uses genuine Latin vocabulary from the original Cicero text
+- **Algorithm**: Random selection from curated classical Latin word dictionary
 
 **User Interaction**:
 - Automatic generation on page load/refresh
@@ -310,7 +312,7 @@ class LoremGenerator {
 
 ### Potential Features (Out of Scope for V1)
 - **Text Customization**: User-defined paragraph/sentence counts
-- **Multiple Languages**: Support for different lorem ipsum variants
+- **Historical Variants**: Support for different classical Latin texts beyond Cicero
 - **Text History**: Local storage of previously generated content
 - **Export Options**: Download as .txt, .docx, or other formats
 - **Advanced Styling**: Rich text formatting options
@@ -332,7 +334,9 @@ class LoremGenerator {
 ## 11. Appendix
 
 ### Glossary
-- **Lorem Ipsum**: Standard placeholder text used in publishing and graphic design
+- **Lorem Ipsum**: Traditional placeholder text derived from Cicero's "De Finibus Bonorum et Malorum" (45 BC), used in publishing and graphic design since the 1500s
+- **De Finibus Bonorum et Malorum**: Classical Latin work by Marcus Tullius Cicero discussing the extremes of good and evil
+- **Cicero**: Roman statesman, orator, lawyer, and philosopher (106-43 BC)
 - **GitHub Pages**: Free static site hosting service provided by GitHub
 - **Clipboard API**: Modern browser API for reading/writing clipboard content
 - **Responsive Design**: Web design approach for optimal viewing across devices
@@ -341,10 +345,13 @@ class LoremGenerator {
 - [Clipboard API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Lorem Ipsum History](https://loremipsum.io/about/)
+- [Lorem Ipsum Origins - Lipsum.com](https://www.lipsum.com/)
+- [Lorem Ipsum History and Meaning](https://loremipsum.io/)
+- [Cicero's De Finibus Bonorum et Malorum](https://en.wikipedia.org/wiki/De_finibus_bonorum_et_malorum)
 
 ### Version History
 - **v1.0** (August 12, 2025): Initial PRD creation, complete feature specification
+- **v1.1** (August 12, 2025): Updated with authentic lorem ipsum specifications, proper Latin word dictionary from Cicero's work
 
 ---
 
