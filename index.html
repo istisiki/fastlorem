@@ -20,31 +20,34 @@
         padding: 1rem;
       }
 
-      .container {
-        max-width: 1000px;
-        margin: 0 auto;
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        border-bottom: 4px solid #d3d3d3;
+        background-color: white;
       }
 
-      .header {
-        margin-bottom: 1rem;
-        position: sticky;
-        top: 0;
-        background-color: white;
-        z-index: 100;
-        padding: 1rem 0;
-        border-bottom: 4px solid #212529;
-        width: 100vw;
-        margin-left: 50%;
-        transform: translateX(-50%);
+      header > .container {
+        display: flex;
+        align-items: baseline;
+        max-width: 976px;
+        margin: 0 auto;
+        padding-top: 1rem;
+        transition: all 0.2s ease;
+      }
+
+      .container {
+        margin: 0 auto;
+        margin-top: 90px;
       }
 
       .header h1 {
         color: black;
         font-size: 24px;
         text-align: center;
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 0 1rem;
       }
 
       .controls {
@@ -104,9 +107,10 @@
         visibility: visible;
       }
 
-      .footer {
+      footer {
         text-align: center;
         padding: 1rem;
+        padding-top: 20px;
         flex-shrink: 0;
         margin-top: auto;
         font-size: 12px;
@@ -135,11 +139,12 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header>
+      <div class="container">
         <h1>FastLorem</h1>
-      </header>
-
+      </div>
+    </header>
+    <div class="container">
       <div class="controls">
         <button type="button" class="nes-btn is-primary" id="copyBtn">
           Copy
@@ -165,14 +170,10 @@
           </div>
         </div>
       </div>
-
-      <footer class="footer">
-        <p>
-          &copy; 2025 FastLorem • Authentic lorem ipsum from Cicero's De Finibus
-          Bonorum et Malorum
-        </p>
-      </footer>
     </div>
+    <footer>
+      <p>&copy; 2025 FastLorem • Just give me some playceholder text! •</p>
+    </footer>
 
     <div id="copyNotification" class="copy-notification nes-container is-dark">
       Copied to clipboard!
