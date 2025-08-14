@@ -13,87 +13,25 @@ A fast, simple lorem ipsum generator that creates random placeholder text instan
 
 [View Live Demo](https://istisiki.github.io/fastlorem)
 
-## Quick Start
+## Technical things I wanted
 
-1. **Clone or Download**: Get the repository files
-2. **Open**: Simply open `index.html` in any modern browser
-3. **Use**: Click "Generate New Text" or refresh to get new content
-4. **Copy**: Click "Copy to Clipboard" to copy the text
-
-## GitHub Pages Deployment
-
-### Option 1: Upload Files
-
-1. Create a new GitHub repository
-2. Upload `index.html` to the repository
-3. Go to repository Settings → Pages
-4. Select "Deploy from a branch" → "main" → "/ (root)"
-5. Your site will be available at `https://yourusername.github.io/repositoryname`
-
-### Option 2: Fork and Deploy
-
-1. Fork this repository
-2. Go to Settings → Pages in your forked repo
-3. Enable GitHub Pages from the main branch
-4. Access your site at `https://yourusername.github.io/fastlorem`
-
-## Local Development
-
-No build process required! Simply:
-
-```bash
-# Open the file in your browser
-open index.html
-```
-
-## Browser Support
-
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
-- ✅ Mobile browsers
-
-## Technical Details
-
-### Architecture
-
-- **Single File**: Everything contained in `index.html`
-- **Vanilla JavaScript**: No frameworks or libraries
-- **CSS Grid/Flexbox**: Modern responsive layout
-- **Clipboard API**: Modern copy functionality with fallback
-
-### Performance
-
-- **Fast Loading**: FIXME how fast does this load?
-- **Lightweight**: FIXME: how big is the file size?
-
-### Customization
-
-The application generates:
-
-- **3-7 paragraphs** per generation
-- **3-8 sentences** per paragraph
-- **8-20 words** per sentence
-- **150+ unique words** in the lorem ipsum vocabulary
-
-## Contributing
-
-1. Talk to me if you want to contribute.
+- Single or as minimal a number of files as possible.
+- Loads fast.
+- Can deploy anywhere! For free.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+Do what you want. Just tell the world I made it. In other words, MIT License. I think...
 
 ## FAQ
 
 **Q: Does this work offline?**
 
-A: Yes! Once loaded, the application works completely offline.
+A: Do you have a browser or at least a text editor? Then, yes.
 
 **Q: Can I customize the number of paragraphs?**
 
-A: Currently, the count is randomized automatically. Custom controls may be added in future versions.
+A: Currently, the count is randomized automatically. I don't know if I will add customizations. That feels slow. We want fast.
 
 **Q: Why doesn't the copy button work?**
 
@@ -112,4 +50,3 @@ If you encounter any issues or have suggestions:
 ---
 
 Made with ❤️ for the developer community. Happy coding!
-
