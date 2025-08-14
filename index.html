@@ -98,23 +98,6 @@
         color: #212529 !important;
       }
 
-      .copy-notification {
-        position: fixed;
-        top: 30px;
-        right: 30px;
-        transform: translateX(400px);
-        transition: transform 0.3s ease;
-        z-index: 1000;
-        opacity: 0;
-        visibility: hidden;
-      }
-
-      .copy-notification.show {
-        transform: translateX(0);
-        opacity: 1;
-        visibility: visible;
-      }
-
       footer {
         text-align: center;
         padding: 1rem;
@@ -193,9 +176,14 @@
       <p>&copy; 2025 FastLorem • Just give me some playceholder text! •</p>
     </footer>
 
-    <div id="copyNotification" class="copy-notification nes-container is-dark">
-      Copied to clipboard!
-    </div>
+    <dialog id="copyNotification" class="nes-dialog" id="dialog-rounded">
+      <form method="dialog">
+        <p>Copied to clipboard!</p>
+        <menu class="dialog-menu">
+          <button class="nes-btn">Thanks!</button>
+        </menu>
+      </form>
+    </dialog>
 
     <script>
       class LoremGenerator {
@@ -502,10 +490,7 @@
         }
 
         showCopyNotification() {
-          this.copyNotification.classList.add("show");
-          setTimeout(() => {
-            this.copyNotification.classList.remove("show");
-          }, 2000);
+          this.copyNotification.showModal();
         }
       }
 
