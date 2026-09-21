@@ -11,7 +11,7 @@ A fast, simple lorem ipsum generator that creates random placeholder text instan
 
 ## Live Demo
 
-[View Live Demo](https://istisiki.github.io/fastlorem)
+[View Live Demo](https://fastlorem.istisiki.me)
 
 ## Technical things I wanted
 
